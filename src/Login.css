@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Circular Std';
+    src: url(Circular/CircularStd-Book.otf) format('truetype');
+}
+  
+.Pages {
+    text-align: center;
+    background-color: #191414;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    font-family: "Circular Std";
+}
+
+.logo_login {
+    margin-bottom: 100px;
+}
+
+.btn-spotify {
+    background-color:#1DB954;
+    border-radius:28px;
+    display:inline-block;
+    color:#ffffff;
+    font-family: "Circular Std";
+    font-size: large;
+    padding:14px 20px;
+    text-decoration:none;
+    transform: scale(2);
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
